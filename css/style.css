@@ -8,27 +8,22 @@ body, ul, li, p{
 }
 a{
     text-decoration: none;
-    color: black;
-}
-.centro{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .msg{
-    background-color: rgb(241, 241, 122);
-    height: 20px;
+    background-color: rgb(255, 255, 110);
+    height: 25px;
     font-size: 0.95rem;
-    
 }
 .menu-principal{
     background-color: rgba(3, 0, 19, 0.842);
-    display: grid;
-    grid-template-columns: 1.5fr 3.5fr 0fr 3.5fr;
-    grid-row: 1fr 1fr;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    height: 70px;
 }
 .menu-principal a{
-    color: white;
+    color: rgb(255, 255, 255);
 }
 #btnbusca{
     padding-top: 5px;
@@ -44,9 +39,9 @@ a{
 }
 .menu{
     display: flex;
-    justify-content: space-around;
-    padding: 35px;
-    padding-left: 10px;
+}
+.menu li {
+    padding: 0 .8rem;
 }
 .menu li a:hover{
     border-bottom: 1.5px solid yellow;
@@ -116,11 +111,16 @@ footer a{
     background-color: rgb(10, 0, 30); 
 
 }
-.footer-contatos{
-    
-}
 .footer-mensagem{
     background-color: rgb(10, 0, 30) ;
 }
-.algo{
+@media(min-width:940px){
+    #btn-menu{
+        display: none;
+    }
+    .centro{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
