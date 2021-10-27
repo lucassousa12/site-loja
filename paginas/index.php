@@ -8,11 +8,11 @@
 </head>
 <body>
     <!----------MENU---------------------------------------->
-    <?php include '../construtores/header.php'?>
+    <?php include_once '../construtores/header.php'?>
     <!--------------CORPO--------------------------------->
         <section class="corpo">
         <section class="banner">
-            <img src="../imagens/Cartão Visita.jpeg" alt="">
+            <img id="img-banner" src="../imagens/Cartão Visita.jpeg" alt=""/>
         </section>
     <!--------------SEÇAO: MAIS VENDIDOS--------------------->
         <?php include '../construtores/sessao-padrao.php' ?>
@@ -22,7 +22,7 @@
         <?php include '../construtores/sessao-padrao.php' ?>
     </section>
     <!------------FOOTER------------------------------------->
-    <?php include '../construtores/footer.php' ?>
+    <?php include_once '../construtores/footer.php' ?>
     <!------------------------------>    
 </body>
 </html>

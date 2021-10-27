@@ -1,0 +1,12 @@
+@import url(base/normalize.css);
+
+
+@import url(layout/l-categorias.css);
+@import url(layout/l-footer.css);
+@import url(layout/l-header.css);
+@import url(layout/l-header-inferior.css);
+
+
+
+@import url(module/c-banner.css);
+@import url(module/c-header-inferior.css);

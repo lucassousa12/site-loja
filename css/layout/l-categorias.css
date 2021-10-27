@@ -1,0 +1,60 @@
+.corpo{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+}
+.area-vendas{
+    display: grid;
+    grid-template-rows: auto 5fr;
+    border-bottom: 1.5px solid black;
+}
+.area-vendas h1{
+    font-size: 1.5em;
+}
+.posts{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 6%;
+}
+.anuncio{
+    background-color: white;
+}
+.campo-anuncio{
+    border: solid black 1px;
+    border-radius: 11px;
+    height: 300px;
+    width: 270px;
+    display: grid;
+    grid-template-rows: 5fr 1fr 1fr;
+}
+.campo-anuncio:hover{
+    transition: 0.25s;
+    height: 320px;
+    width: 290px;
+}
+.campo-anuncio img{
+    height: 95%;
+    width: 95%;
+}
+.descrição {
+    font-size: 1rem;
+    text-align: center;
+    padding: 3px 3px 3px 3px;
+}
+.preço{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+@media (min-width: 320px){
+    
+    .area-vendas{
+        display: grid;
+        grid-template-rows: auto 3fr;
+        border-bottom: 1.5px solid black;
+    }
+    .anuncio{
+        width: 50%;
+        height: 50%;
+    }
+}

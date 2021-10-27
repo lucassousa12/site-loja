@@ -1,0 +1,14 @@
+.c-header-inferior{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.c-links{
+    color: rgb(221, 221, 221);
+    padding: .2rem 0 0.4rem;
+    border-bottom: .22rem solid transparent;  ;
+}
+.c-links:hover{
+    color: white;
+    border-bottom: .22rem solid yellow;
+}

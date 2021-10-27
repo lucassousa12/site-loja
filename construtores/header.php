@@ -4,10 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/mobile.css" media= "(max-width: 940px)">
+    <link rel="stylesheet" href="../css/main.css">
     
-   
 </head>
 <body>
 
@@ -16,7 +14,17 @@
         <p class="msg centro">Frete Grátis à partir de 3 peças!!!</p>
         <!-- Menu do Site               -->
         <section class="menu-principal">
-            <!-- Menu de Links          -->
+           
+            <!-- Logo do Site           -->
+            <a href="#" class="centro">Logo</a>
+            <!-- Buscador do Site       -->
+            <div class="centro busca">
+                <input type="text" id="txtbusca" placeholder=" Buscar produto">
+                <a href="#" id="btnbusca"> 
+                    <img src="../imagens/outline_search_white_24dp.png">
+                </a>
+            </div>
+                 <!-- Menu de Links          -->
             <nav id="nav-menu"> 
 
                 <button id="btn-menu">
@@ -31,19 +39,15 @@
                 </ul>
                 
             </nav>
-            <!-- Logo do Site           -->
-            <a href="#" class="centro">Logo</a>
-            <!-- Buscador do Site       -->
-            <div class="centro busca">
-                <input type="text" id="txtbusca" placeholder=" Buscar produto">
-                <a href="#" id="btnbusca"> 
-                    <img src="../imagens/outline_search_white_24dp.png">
-                </a>
-            </div>
-    
         </section>
-        <section>
-            
+        <section class="l-header-inferior">
+            <nav class="c-header-inferior">
+                <a class="c-links" href="">Liga Brasileira</a>
+                <a class="c-links" href="">Liga Europeia</a>
+                <a class="c-links" href="">Camisas Femininas</a>
+                <a class="c-links" href="">Corta Ventos</a>
+                <a class="c-links" href="">Basquete</a>
+            </nav>
         </section>
     </header>
 
