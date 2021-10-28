@@ -9,22 +9,64 @@
 <body>
 
 <footer>
-    <section class="footer">
-        <section class="algo">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias veritatis, minus laboriosam doloribus, enim sit impedit, voluptates porro itaque quidem nobis ad dignissimos aut? Dolorum quidem odio corporis. Quibusdam, id.
+
+    <section class="l-footer">
+
+        <section class="l-footer-superior display-grid space-around">
+
+            <section class="c-footer-contatos">
+
+                <ul class="c-f-contatos-ul">
+                    
+                    <li class="c-f-contatos-li">
+                        <a class="c-f-contatos-li-a display-flex align-center justify-center" href="#">
+                            <img class="" src="../imagens/facebook.png" alt="">
+                            <p class="c-f-contatos-p" for="">/WOLFSPORTS</p>
+                        </a>
+                    </li>
+
+                    <li class="c-f-contatos-li">
+                        <a class="c-f-contatos-li-a display-flex align-center justify-center" href="#">
+                            <img class="" src="../imagens/instagram.png" alt="">
+                            <p class="c-f-contatos-p" for="">/WOLFSPORTS.OFC</p>
+                        </a>
+                    </li>
+
+                    <li class="c-f-contatos-li">
+                        <a class="c-f-contatos-li-a display-flex align-center justify-center" href="#">
+                            <img class="" src="../imagens/whatsapp.png" alt="">
+                            <p class="c-f-contatos-p " for="">(95) 99123-4567</p>
+                        </a>
+                    </li>
+
+                    <li class="c-f-contatos-li">
+                        <a class="c-f-contatos-li-a display-flex align-center justify-center" href="#">
+                            <img class="" src="../imagens/gmail.png" alt="">
+                            <p class="c-f-contatos-p " for="">WOLFSPORTSOFC@GMAIL.COM</p>
+                        </a>
+                    </li>
+                </ul>
+
+            </section>
+
+            <section class="c-footer-menu">
+
+                <ul class="">
+                    <li class="c-f-menu-li">
+                        <a class="color-a" href="#">Sobre a gente</a>
+                    </li>
+                    <li class="">
+                        Ícones feitos por <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com</a>
+                    </li>
+                </ul>
+
+            </section>
         </section>
-        <section class="footer-contatos">
-            <ul>
-                <li><a href="#">FACEBOOK</a></li>
-                <li><a href="#">INSTAGRAM</a></li>
-                <li><a href="#">WHATSAPP</a></li>
-                <li><a href="#">EMAIL</a></li>
-            </ul>
-        </section>
-        </section>
-        <section class=" footer-mensagem centro">
+
+        <section class=" c-footer-mensagem centro">
             <p>Todos os direitos reservados.</p>
         </section>
+
     </footer>
     
 </body>

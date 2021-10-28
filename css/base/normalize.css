@@ -80,7 +80,9 @@
     background-color: transparent;
     text-decoration: none;
   }
-  
+  a:hover{
+    color: rgb(255, 255, 255);
+  }
   /**
    * 1. Remove the bottom border in Chrome 57-
    * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
@@ -350,4 +352,11 @@
   
   [hidden] {
     display: none;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  li{
+    list-style: none;
   }

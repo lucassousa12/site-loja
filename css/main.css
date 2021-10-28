@@ -1,4 +1,5 @@
 @import url(base/normalize.css);
+@import url(base/generics.css);
 
 
 @import url(layout/l-categorias.css);
@@ -10,3 +11,6 @@
 
 @import url(module/c-banner.css);
 @import url(module/c-header-inferior.css);
+@import url(module/c-footer-contatos.css);
+@import url(module/c-footer-menu.css);
+@import url(module/c-footer-mensagem.css);

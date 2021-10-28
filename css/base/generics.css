@@ -1,0 +1,33 @@
+.display-flex{
+    display: flex;
+}
+.display-grid{
+    display: grid;
+}
+.display-block{
+    display: block;
+}
+.space-around{
+    justify-content: space-around;
+}
+.space-between{
+    justify-content: space-between;
+}
+.justify-center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
+.align{
+    align-items: baseline;
+}
+.color-a{
+    color: rgb(193, 218, 255);
+}
+.width-100per{
+    width: 100%;
+}
+.width-50per{
+    width: 50%;
+}
