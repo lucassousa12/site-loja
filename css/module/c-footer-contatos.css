@@ -5,14 +5,11 @@
 .c-f-contatos-li-a{
     padding: 0 2rem 0 .3rem;
     margin: .1rem;
-    border-bottom: 1.5px solid rgba(134, 125, 255, 0.5);
+    border-bottom: 1.5px solid rgba(15, 15, 15, 0.5);
     border-radius: 3px;
 }
-.c-f-contatos-li-a:hover{
-    background-color: rgb(14, 10, 243);
-}
 .c-f-contatos-p{ 
-    color: rgb(172, 177, 255);
+    color: rgb(0, 0, 0);
     font-size: .7rem;
     padding-left: .3rem;
 }

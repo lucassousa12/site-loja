@@ -1,10 +1,13 @@
+.header{
+    width: 100%;
+}
 .msg{
-    background-color: rgb(255, 255, 110);
+    background-color: rgb(255, 255, 48);    
     height: 25px;
     font-size: 0.95rem;
 }
 .menu-principal{
-    background-color: rgba(3, 0, 19, 0.842);
+    background-color: rgb(244, 245, 248);
     display:flex;
     align-items: center;
     justify-content: space-between;
@@ -12,14 +15,14 @@
     height: 70px;
 }
 .menu-principal a{
-    color: rgb(255, 255, 255);
+    color: black;
 }
 #btnbusca{
     padding-top: 5px;
 }
 #txtbusca{
     border-radius: 5px;
-    border: none;
+    border: solid 1px;
     height: 20px;
     width: 250px;
 }
@@ -33,7 +36,7 @@
     padding: 0 .8rem;
 }
 .menu li a:hover{
-    border-bottom: 1.5px solid yellow;
+    border-bottom: 1.5px solid rgb(0, 0, 0);
 }
 @media(min-width:940px){
     #btn-menu{
@@ -52,7 +55,6 @@
         align-items: center;
     }
     .menu-principal{
-        background-color: rgba(3, 0, 19, 0.8);
         display: flex; 
         justify-content:space-between;
         align-items:center;
@@ -60,15 +62,12 @@
         height: 60px;
         padding: 0 1.5rem;
     }
-    .menu-principal a{
-        color: rgb(255, 255, 255);
-    }
     #btnbusca{
         display: flex;
         width: 35px;
     }
     #btn-menu{
-        color: white;
+        color: rgb(0, 0, 0);
         display: flex;
         padding: .5rem 1rem;
         font-size: 1rem;
@@ -107,8 +106,8 @@
         position: absolute;
         padding: 0;
         width: 100%;
-        top: 69px;
-        background-color: rgba(3, 0, 19, 0.842);
+        top: 85px;
+        background-color: rgba(228, 226, 238);
         height: 0;
         transition: .6s;
         left: 0px;
@@ -124,7 +123,7 @@
         width: 93%;
         margin: 0 0.7rem; 
         padding: 1.5rem 0; 
-        border-bottom: 2px solid rgba(255, 255, 110, .25); 
+        border-bottom: 2px solid rgba(0, 0, 0, 0.25); 
     }
     #nav-menu.active .menu{
         

@@ -8,21 +8,21 @@
 </head>
 <body>
     <!----------MENU---------------------------------------->
-    <?php include_once '../construtores/header.php'?>
+    <?php include '../html/header.html' ?>
     <!--------------CORPO--------------------------------->
         <section class="corpo">
         <section class="banner">
             <img id="img-banner" src="../imagens/Cartão Visita.jpeg" alt=""/>
         </section>
     <!--------------SEÇAO: MAIS VENDIDOS--------------------->
-        <?php include '../construtores/sessao-padrao.php' ?>
+        <?php include '../html/sessao-padrao.html' ?>
     <!-------------SEÇÃO: CAMISAS BRASILEIRAS---------------->
-        <?php include '../construtores/sessao-padrao.php' ?>
+        <?php include '../html/sessao-padrao.html' ?>
     <!-------------SEÇÃO: CAMISAS iNTERNACIONAIS------------->
-        <?php include '../construtores/sessao-padrao.php' ?>
+        <?php include '../html/sessao-padrao.html' ?>
     </section>
     <!------------FOOTER------------------------------------->
-    <?php include_once '../construtores/footer.php' ?>
+    <?php include_once '../html/footer.html' ?>
     <!------------------------------>    
 </body>
 </html>

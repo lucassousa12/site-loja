@@ -4,11 +4,10 @@
     align-items: center;
 }
 .c-links{
-    color: rgb(221, 221, 221);
+    color: black;
     padding: .2rem 0 0.4rem;
     border-bottom: .22rem solid transparent;  ;
 }
 .c-links:hover{
-    color: white;
-    border-bottom: .22rem solid yellow;
+    border-bottom: .22rem solid rgb(0, 0, 0);
 }
